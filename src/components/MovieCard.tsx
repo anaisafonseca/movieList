@@ -1,5 +1,4 @@
-import { Star, Clock } from 'react-feather';
-
+import { Clock, Star } from 'react-feather';
 import '../styles/movie-card.scss';
 
 interface MovieCardProps {
@@ -8,6 +7,7 @@ interface MovieCardProps {
   rating: string;
   runtime: string;
 }
+
 
 export function MovieCard(props: MovieCardProps) {
   return (
